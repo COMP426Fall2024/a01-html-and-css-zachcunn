@@ -9,10 +9,8 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    
     <!-- Custom styles for this template -->
     <link href="css/sticky-footer-navbar.css" rel="stylesheet">
     <link rel="stylesheet" href="css/custom.css"> 
@@ -24,15 +22,17 @@
       h1, h2 {
         font-family: 'Roboto', sans-serif;
       }
-      /* Custom styles */
+
+      /* Hover effect for table rows */
+      table tbody tr:hover td {
+        background-color: #f0e68c; /* Khaki background on hover */
+      }
+      
       .highlight {
         color: #ff6347; /* Tomato color for emphasis */
       }
       .custom-border {
         border: 2px solid #4682b4; /* SteelBlue color border */
-      }
-      .hover-effect:hover {
-        background-color: #f0e68c; /* Khaki background on hover */
       }
       .container img {
         width: 100%; /* Adjust image width to container */
@@ -72,7 +72,7 @@
     <!-- Fixed navbar without collapse (no JavaScript) -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
      <div class="container-fluid">
-         <!-- brand -->    
+         <!-- Brand -->    
          <a class="navbar-brand" href="#">Welcome to Mount Olympus</a>
 
          <!-- Dropdown Navigation Links -->
@@ -97,7 +97,7 @@
 
       <!-- Table Example -->
       <h2 class="mt-4">List of Greek Gods</h2>
-      <table class="table table-bordered table-striped custom-border hover-effect">
+      <table class="table table-bordered table-striped custom-border">
         <thead>
           <tr>
             <th>God</th>
@@ -123,6 +123,7 @@
           </tr>
         </tbody>
       </table>
+      
    </main>
 
    <!-- Begin footer content -->
