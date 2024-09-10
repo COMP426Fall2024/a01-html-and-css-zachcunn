@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Greek Mythology</title>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css"> 
+
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+      h1, h2 {
+        font-family: 'Roboto', sans-serif;
+      }
+      /* Custom styles */
+      .highlight {
+        color: #691692; /* Tomato color for emphasis */
+      }
+      .custom-border {
+        border: 2px solid #4682b4; /* SteelBlue color border */
+      }
+      .hover-effect:hover {
+        background-color: #f0e68c; /* Khaki background on hover */
+      }
+      .container img {
+        width: 100%; /* Adjust image width to container */
+        max-width: 600px; /* Max width to maintain aspect ratio */
+        height: auto; /* Maintain aspect ratio */
+      }
+      #footer-text {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .navbar-brand {
+        font-size: 1.5rem;
+      }
+      table {
+        width: 80%; /* Table width relative to container */
+        margin: 0 auto; /* Center the table */
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid #ddd; /* Light gray border for table cells */
+      }
+      .text-center {
+        text-align: center;
+      }
+      .mt-5 {
+        margin-top: 3rem; /* Larger top margin */
+      }
+      .mt-4 {
+        margin-top: 2rem; /* Slightly smaller top margin */
+      }
+      .lore-text {
+        margin-top: 2rem;
+        font-size: 1.1rem;
+        text-align: left;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column h-100 index-background">
+    
+   <header>
+    <!-- Fixed navbar without collapse (no JavaScript) -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+     <div class="container-fluid">
+         <!-- brand -->    
+         <a class="navbar-brand" href="#">Welcome to Athena's page!</a>
+
+         <!-- Dropdown Navigation Links -->
+         <div class="ms-auto">
+            <select class="form-select mb-2" onchange="location = this.value;">
+              <option value="" selected>Select a Page</option>
+              <option value="index.html">Home</option>
+              <option value="zeus.html">Zeus</option>
+              <option value="poseidon.html">Poseidon</option>
+              <option value="athena.html">Athena</option>
+            </select>
+         </div>
+     </div>
+    </nav>
+   </header>
+
+   <!-- Begin page content -->
+   <main class="flex-shrink-0">
+     <div class="container text-center">
+      <img src="img/Athena.webp" alt="Greek Gods">
+      <h1 class="mt-5 highlight">Athena the Goddess of wisdom!</h1>
+
+      <!-- Table Example -->
+      <h2 class="mt-4">Greek God: Athena</h2>
+      <table class="table table-bordered table-striped custom-border hover-effect">
+        <thead>
+          <tr>
+            <th>God</th>
+            <th>Domain</th>
+            <th>Symbol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Athena</td>
+            <td>Wisdom, Warfare</td>
+            <td>Owl</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Zeus Lore -->
+      <div class="lore-text">
+        <h2 class="mt-4">The Lore of Athena</h2>
+        <p>Athena, the revered goddess of wisdom, warfare, and strategy, stands as one of the most influential deities in Greek mythology. Known for her unparalleled intellect, bravery, and dedication to justice, Athena was born from a unique and remarkable event—emerging fully grown and armored from the head of her father, Zeus. This extraordinary birth marked her as a symbol of divine wisdom and strength.</p>
+        
+        <p>Unlike other gods who engaged in the chaotic and destructive aspects of war, Athena was known for her strategic and thoughtful approach to battle. She represented the disciplined, tactical side of warfare, in contrast to Ares, the god of chaotic and violent conflict. This made her a beloved protector of heroes, and she was often depicted guiding and assisting famous figures like Odysseus, Perseus, and Heracles on their epic quests.</p>
+        
+        <p>Athena was also the patroness of Athens, the city that bore her name. According to myth, she won the favor of the city's people in a contest against Poseidon. While Poseidon offered a saltwater spring, Athena gifted the olive tree, a symbol of peace, prosperity, and sustenance. The Athenians recognized the olive tree's value and declared Athena the protector of their city, which became a center of wisdom, philosophy, and democracy under her guidance.</p>
+        
+        <p>Athena's connection to wisdom extended beyond warfare. She was the goddess of knowledge, craftsmanship, and the arts, and she inspired those who sought to create and innovate. Her wisdom was not just about intellect but also about moral judgment, making her a guardian of justice and fairness. She often intervened in disputes to ensure that the righteous and just prevailed.</p>
+        
+        <p>Among Athena's many symbols, the owl is perhaps the most famous, representing her keen insight and ability to see what others could not. Her aegis, a protective cloak adorned with the head of the Gorgon, was another powerful symbol, capable of striking fear into her enemies.</p>
+        
+        <p>Though Athena was a fierce warrior, she valued peace and diplomacy. She preferred resolution through intellect and negotiation rather than through unnecessary conflict. This balance of strength and wisdom made her one of the most respected deities in Greek mythology, and her influence extended far beyond the battlefield. Even today, Athena is remembered as a symbol of wisdom, courage, and the pursuit of justice.</p>
+      </div>
+      </div>
+   </main>
+
+   <!-- Begin footer content -->
+   <footer class="footer mt-auto py-3">
+    <div class="container">
+      <p id="footer-text" class="m-0 text-center text-white">
+        Copyright &copy; Zachary Cunningham 2024
+      </p>
+    </div>
+   </footer>
+  </body>
+</html>

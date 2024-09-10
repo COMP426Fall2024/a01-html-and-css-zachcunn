@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Greek Mythology</title>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css"> 
+
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+      h1, h2 {
+        font-family: 'Roboto', sans-serif;
+      }
+      /* Custom styles */
+      .highlight {
+        color: #178462; /* Tomato color for emphasis */
+      }
+      .custom-border {
+        border: 2px solid #4682b4; /* SteelBlue color border */
+      }
+      .hover-effect:hover {
+        background-color: #f0e68c; /* Khaki background on hover */
+      }
+      .container img {
+        width: 100%; /* Adjust image width to container */
+        max-width: 600px; /* Max width to maintain aspect ratio */
+        height: auto; /* Maintain aspect ratio */
+      }
+      #footer-text {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .navbar-brand {
+        font-size: 1.5rem;
+      }
+      table {
+        width: 80%; /* Table width relative to container */
+        margin: 0 auto; /* Center the table */
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid #ddd; /* Light gray border for table cells */
+      }
+      .text-center {
+        text-align: center;
+      }
+      .mt-5 {
+        margin-top: 3rem; /* Larger top margin */
+      }
+      .mt-4 {
+        margin-top: 2rem; /* Slightly smaller top margin */
+      }
+      .lore-text {
+        margin-top: 2rem;
+        font-size: 1.1rem;
+        text-align: left;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column h-100 index-background">
+    
+   <header>
+    <!-- Fixed navbar without collapse (no JavaScript) -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+     <div class="container-fluid">
+         <!-- brand -->    
+         <a class="navbar-brand" href="#">Welcome to Poseidon's page!</a>
+
+         <!-- Dropdown Navigation Links -->
+         <div class="ms-auto">
+            <select class="form-select mb-2" onchange="location = this.value;">
+              <option value="" selected>Select a Page</option>
+              <option value="index.html">Home</option>
+              <option value="zeus.html">Zeus</option>
+              <option value="poseidon.html">Poseidon</option>
+              <option value="athena.html">Athena</option>
+            </select>
+         </div>
+     </div>
+    </nav>
+   </header>
+
+   <!-- Begin page content -->
+   <main class="flex-shrink-0">
+     <div class="container text-center">
+      <img src="img/poseidon.png" alt="Greek Gods">
+      <h1 class="mt-5 highlight">Poseidon the God of the sea!</h1>
+
+      <!-- Table Example -->
+      <h2 class="mt-4">Greek God: Poseidon</h2>
+      <table class="table table-bordered table-striped custom-border hover-effect">
+        <thead>
+          <tr>
+            <th>God</th>
+            <th>Domain</th>
+            <th>Symbol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Poseidon</td>
+            <td>Sea, Earthquakes</td>
+            <td>Trident</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Zeus Lore -->
+      <div class="lore-text">
+        <h2 class="mt-4">The Lore of Poseidon</h2>
+        <p>Piercing the turbulent waters of the ocean, Poseidon, the formidable god of the sea, wielded his trident with commanding authority. As one of the three supreme Olympian gods, alongside his brothers Zeus and Hades, Poseidon governed the vast, mysterious expanses of the ocean, the domain of all marine creatures, and the source of many ancient myths. Born of the Titans Cronus and Rhea, Poseidon's destiny was entwined with the deep blue, where he ruled with both serenity and tempestuous wrath.</p>
+        
+        <p>After the defeat of the Titans in the great war known as the Titanomachy, Poseidon drew lots with his brothers to divide the realms of the world. Zeus claimed the skies, Hades took the underworld, and Poseidon inherited the seas. From his majestic palace beneath the waves, built of coral and adorned with pearls, Poseidon governed the waters and all their inhabitants. Sailors revered him, offering sacrifices in hopes of safe passage across his unpredictable domain.</p>
+        
+        <p>Poseidon's power extended beyond the oceans to the land, where he was also known as the god of earthquakes. With a strike of his trident, he could cause the earth to shake and mountains to crumble. His fury was often feared, as his mood could shift like the tides—one moment calm and nurturing, and the next, vengeful and destructive.</p>
+        
+        <p>Like his brother Zeus, Poseidon's passions frequently led him to romantic entanglements with both goddesses and mortals. Among his many offspring were the mighty horse Arion, born of his union with the goddess Demeter, and the Cyclops Polyphemus, a fearsome giant who would later encounter the hero Odysseus. Poseidon's connection to horses was profound; in many myths, he was considered the creator of these noble creatures, and he was often depicted riding across the waves in a chariot drawn by magnificent sea horses.</p>
+        
+        <p>Yet, Poseidon was not without his rivalries. One of his most famous conflicts was with the goddess Athena over the patronage of the city of Athens. When both gods desired to claim the city, they agreed to offer the people gifts, and whichever gift was deemed more valuable would determine the city's protector. Poseidon struck the earth with his trident, creating a saltwater spring, but Athena's gift of the olive tree was judged more beneficial, and she won the contest. Despite this, Poseidon remained a powerful and revered figure, with temples dedicated to his honor throughout the ancient Greek world.</p>
+        
+        <p>Poseidon's legacy endures as the embodiment of the sea's dual nature—both beautiful and terrifying, nurturing and destructive. His dominion over the waters made him a central figure in Greek mythology, worshiped by those who lived by the sea and feared by those who knew the dangers of his realm. As the waves crash upon the shore and the tides ebb and flow, the presence of Poseidon can still be felt, a reminder of the power and mystery of the deep.</p>
+      </div>
+      </div>
+   </main>
+
+   <!-- Begin footer content -->
+   <footer class="footer mt-auto py-3">
+    <div class="container">
+      <p id="footer-text" class="m-0 text-center text-white">
+        Copyright &copy; Zachary Cunningham 2024
+      </p>
+    </div>
+   </footer>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Greek Mythology</title>
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sticky-footer-navbar/">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css"> 
+
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+      h1, h2 {
+        font-family: 'Roboto', sans-serif;
+      }
+      /* Custom styles */
+      .highlight {
+        color: #3a78cf; /* Tomato color for emphasis */
+      }
+      .custom-border {
+        border: 2px solid #4682b4; /* SteelBlue color border */
+      }
+      .hover-effect:hover {
+        background-color: #f0e68c; /* Khaki background on hover */
+      }
+      .container img {
+        width: 100%; /* Adjust image width to container */
+        max-width: 600px; /* Max width to maintain aspect ratio */
+        height: auto; /* Maintain aspect ratio */
+      }
+      #footer-text {
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .navbar-brand {
+        font-size: 1.5rem;
+      }
+      table {
+        width: 80%; /* Table width relative to container */
+        margin: 0 auto; /* Center the table */
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid #ddd; /* Light gray border for table cells */
+      }
+      .text-center {
+        text-align: center;
+      }
+      .mt-5 {
+        margin-top: 3rem; /* Larger top margin */
+      }
+      .mt-4 {
+        margin-top: 2rem; /* Slightly smaller top margin */
+      }
+      .lore-text {
+        margin-top: 2rem;
+        font-size: 1.1rem;
+        text-align: left;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+
+  <body class="d-flex flex-column h-100 index-background">
+    
+   <header>
+    <!-- Fixed navbar without collapse (no JavaScript) -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+     <div class="container-fluid">
+         <!-- brand -->    
+         <a class="navbar-brand" href="#">Welcome to Zeus's page!</a>
+
+         <!-- Dropdown Navigation Links -->
+         <div class="ms-auto">
+            <select class="form-select mb-2" onchange="location = this.value;">
+              <option value="" selected>Select a Page</option>
+              <option value="index.html">Home</option>
+              <option value="zeus.html">Zeus</option>
+              <option value="poseidon.html">Poseidon</option>
+              <option value="athena.html">Athena</option>
+            </select>
+         </div>
+     </div>
+    </nav>
+   </header>
+
+   <!-- Begin page content -->
+   <main class="flex-shrink-0">
+     <div class="container text-center">
+      <img src="img/zeus.avif" alt="Greek Gods">
+      <h1 class="mt-5 highlight">Zeus the lightning God!</h1>
+
+      <!-- Table Example -->
+      <h2 class="mt-4">Greek God: Zeus</h2>
+      <table class="table table-bordered table-striped custom-border hover-effect">
+        <thead>
+          <tr>
+            <th>God</th>
+            <th>Domain</th>
+            <th>Symbol</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Zeus</td>
+            <td>Sky, Thunder</td>
+            <td>Lightning Bolt</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Zeus Lore -->
+      <div class="lore-text">
+        <h2 class="mt-4">The Lore of Zeus</h2>
+        <p>In the vast tapestry of ancient Greek mythology, no figure looms larger than Zeus, the mighty king of the gods. Born of the Titans Cronus and Rhea, Zeus' rise to power was a story of defiance and destiny. His father, Cronus, had devoured his siblings—Hestia, Demeter, Hera, Hades, and Poseidon—fearing a prophecy that foretold his downfall at the hands of one of his children. But when Zeus was born, Rhea tricked Cronus by hiding the infant on the island of Crete and presenting Cronus with a stone wrapped in swaddling clothes.</p>
+        
+        <p>Raised in secret by nymphs and fed on the milk of the divine goat Amalthea, Zeus grew strong and cunning. Upon reaching adulthood, he returned to challenge his tyrant father. With the help of the goddess Metis, Zeus tricked Cronus into regurgitating his swallowed siblings, and together they waged a cataclysmic war against the Titans. This war, known as the Titanomachy, raged for ten years until Zeus and his allies—the Cyclopes and the Hecatoncheires—emerged victorious, casting the Titans into the abyss of Tartarus.</p>
+        
+        <p>Zeus then took his place as the ruler of Mount Olympus, the seat of the gods, where he governed both heaven and earth. Known as the god of the sky, thunder, and justice, Zeus wielded the mighty thunderbolt, a weapon of immense power gifted to him by the Cyclopes during the war. From his throne, Zeus watched over both gods and mortals, ensuring that order and justice prevailed. Yet, despite his position as a supreme arbiter, Zeus was not a distant deity; his passions often led him to intervene in the affairs of mortals, sometimes for good and sometimes for ill.</p>
+        
+        <p>Though Zeus was married to Hera, the goddess of marriage, his romantic escapades were legendary. His numerous affairs with goddesses, nymphs, and mortal women alike resulted in the birth of many significant figures in Greek mythology. Among his children were Athena, goddess of wisdom; Apollo and Artemis, gods of the sun and moon; Hermes, the messenger god; and Heracles, the greatest of Greek heroes.</p>
+        
+        <p>Despite his flaws—his jealousy, his wrath, and his frequent infidelities—Zeus was revered as the ultimate protector and overseer of the natural order. He upheld the laws of hospitality and was the final authority in the divine councils of Olympus. Zeus also served as the guardian of oaths and punisher of those who violated them, ensuring that justice was maintained across the mortal and divine realms.</p>
+        
+        <p>As the king of the gods, Zeus' influence permeated every aspect of life in the ancient Greek world. From the highest peaks of Mount Olympus to the farthest corners of the earth, his presence was felt in every storm, every flash of lightning, and every act of divine retribution. Though feared for his immense power, Zeus was also honored as the protector of mankind, a god who could bring rain to nourish the fields or hurl a thunderbolt to strike down a tyrant.</p>
+        
+        <p>In the end, Zeus' legacy as the mightiest of the Olympian gods endured through the ages, his name synonymous with power, justice, and the unyielding force of the heavens.</p>
+      </div>
+   </main>
+
+   <!-- Begin footer content -->
+   <footer class="footer mt-auto py-3">
+    <div class="container">
+      <p id="footer-text" class="m-0 text-center text-white">
+        Copyright &copy; Zachary Cunningham 2024
+      </p>
+    </div>
+   </footer>
+  </body>
+</html>
