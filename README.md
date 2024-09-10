@@ -88,4 +88,4 @@ Fill out the following information (edit this ReadMe):
 
 First and Last Name: Zachary Cunningham
 
-Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-zachcunn/
+Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-zachcunn/A01%20-%20zachcunn/index.html
